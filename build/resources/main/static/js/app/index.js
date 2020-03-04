@@ -1,4 +1,5 @@
 var main = {
+
     init : function() {
         var _this = this;
 
@@ -11,10 +12,10 @@ var main = {
         });
 
         $('#btn-delete').on('click', function() {
-        alert("aa")
         _this.delete();
         });
     },
+
     save : function() {
         var data = {
             title: $('#title').val(),
